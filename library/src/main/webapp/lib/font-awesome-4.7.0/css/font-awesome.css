@@ -14,7 +14,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* makes the font 33% larger relative to the icon container */
 .fa-lg {
   font-size: 1.33333333em;
   line-height: 0.75em;
@@ -71,7 +70,6 @@
 .fa.fa-pull-right {
   margin-left: .3em;
 }
-/* Deprecated as of 4.4.0 */
 .pull-right {
   float: right;
 }
@@ -173,8 +171,6 @@
 .fa-inverse {
   color: #ffffff;
 }
-/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
-   readers do not read off random characters that represent icons */
 .fa-glass:before {
   content: "\f000";
 }

@@ -25,7 +25,6 @@ public interface NoticeService {
 
     /**
      * 删除
-     * @param ids
      */
     void deleteNoticeByIds(List<String> ids);
 }
