@@ -1472,9 +1472,7 @@ Link.prototype = {
     }
 };
 
-/*
-    italic-menu
-*/
+
 // 构造函数
 function Italic(editor) {
     this.editor = editor;
@@ -1525,9 +1523,7 @@ Italic.prototype = {
     }
 };
 
-/*
-    redo-menu
-*/
+
 // 构造函数
 function Redo(editor) {
     this.editor = editor;
@@ -1553,9 +1549,7 @@ Redo.prototype = {
     }
 };
 
-/*
-    strikeThrough-menu
-*/
+
 // 构造函数
 function StrikeThrough(editor) {
     this.editor = editor;
@@ -1606,9 +1600,7 @@ StrikeThrough.prototype = {
     }
 };
 
-/*
-    underline-menu
-*/
+
 // 构造函数
 function Underline(editor) {
     this.editor = editor;
@@ -1659,9 +1651,7 @@ Underline.prototype = {
     }
 };
 
-/*
-    undo-menu
-*/
+
 // 构造函数
 function Undo(editor) {
     this.editor = editor;
@@ -1687,9 +1677,7 @@ Undo.prototype = {
     }
 };
 
-/*
-    menu - list
-*/
+
 // 构造函数
 function List(editor) {
     var _this = this;
@@ -1764,9 +1752,7 @@ List.prototype = {
     }
 };
 
-/*
-    menu - justify
-*/
+
 // 构造函数
 function Justify(editor) {
     var _this = this;
@@ -1802,9 +1788,7 @@ Justify.prototype = {
     }
 };
 
-/*
-    menu - Forecolor
-*/
+
 // 构造函数
 function ForeColor(editor) {
     var _this = this;
@@ -1846,9 +1830,7 @@ ForeColor.prototype = {
     }
 };
 
-/*
-    menu - BackColor
-*/
+
 // 构造函数
 function BackColor(editor) {
     var _this = this;
@@ -1890,9 +1872,7 @@ BackColor.prototype = {
     }
 };
 
-/*
-    menu - quote
-*/
+
 // 构造函数
 function Quote(editor) {
     this.editor = editor;
@@ -1958,9 +1938,7 @@ Quote.prototype = {
     }
 };
 
-/*
-    menu - code
-*/
+
 // 构造函数
 function Code(editor) {
     this.editor = editor;
@@ -2200,9 +2178,7 @@ Emoticon.prototype = {
     }
 };
 
-/*
-    menu - table
-*/
+
 // 构造函数
 function Table(editor) {
     this.editor = editor;
@@ -2620,9 +2596,7 @@ Video.prototype = {
     }
 };
 
-/*
-    menu - img
-*/
+
 // 构造函数
 function Image(editor) {
     this.editor = editor;

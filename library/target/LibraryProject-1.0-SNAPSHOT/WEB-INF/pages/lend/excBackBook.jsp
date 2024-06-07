@@ -62,8 +62,6 @@
                 url:"updateLendInfoSubmit",
                 type:"POST",
                 data:datas,
-                // contentType:"application/json",
-                // data:JSON.stringify(datas),
                 success:function(result){
                     if(result.code==0){//如果成功
                         layer.msg('还书成功',{
