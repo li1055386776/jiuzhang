@@ -96,7 +96,6 @@
             $.ajax({
                 url:"addReaderSubmit",
                 type:"POST",
-                //data:datas,
                 contentType:'application/json',
                 data:JSON.stringify(datas),
                 success:function(result){

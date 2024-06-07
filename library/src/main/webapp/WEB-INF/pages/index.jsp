@@ -18,7 +18,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone=no">
-    <link rel="icon" href="${pageContext.request.contextPath}/images/favicon.ico">
+    <link rel="icon" href="${pageContext.request.contextPath}/images/LN.jpg">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/lib/layui-v2.5.5/css/layui.css" media="all">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/layuimini.css?v=2.0.4" media="all">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/themes/default.css" media="all">
@@ -57,16 +57,16 @@
             <ul class="layui-nav layui-layout-right ">
 
                 <li class="layui-nav-item" lay-unselect>
-                    <a href="javascript:;" data-refresh="刷新"><i class="fa fa-refresh"></i></a>
+                    <a href="javascript:" data-refresh="刷新"><i class="fa fa-refresh"></i></a>
                 </li>
                 <li class="layui-nav-item" lay-unselect>
-                    <a href="javascript:;" data-clear="清理" class="layuimini-clear"><i class="fa fa-trash-o"></i></a>
+                    <a href="javascript:" data-clear="清理" class="layuimini-clear"><i class="fa fa-trash-o"></i></a>
                 </li>
                 <li class="layui-nav-item mobile layui-hide-xs" lay-unselect>
-                    <a href="javascript:;" data-check-screen="full"><i class="fa fa-arrows-alt"></i></a>
+                    <a href="javascript:" data-check-screen="full"><i class="fa fa-arrows-alt"></i></a>
                 </li>
                 <li class="layui-nav-item layuimini-setting">
-                    <a href="javascript:;"><span style="color: #BBBBBB">${sessionScope.user.username}</span></a>
+                    <a href="javascript:"><span style="color: #BBBBBB">${sessionScope.user.username}</span></a>
                     <dl class="layui-nav-child">
                         <dd>
                             <a href="#" layuimini-content-href="${pageContext.request.contextPath}/updatePassword" data-title="修改密码" data-icon="fa fa-gears">修改密码</a>

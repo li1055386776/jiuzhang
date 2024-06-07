@@ -3849,7 +3849,6 @@ layui.define(['layer', 'form', 'laytpl'], function (exports) {
         let cityEl = options.elem.find('.city-selector');
         let countyEl = options.elem.find('.county-selector');
 
-        //filter
         if(provinceEl.attr('lay-filter')){
             provinceFilter = provinceEl.attr('lay-filter');
         }
@@ -3915,10 +3914,6 @@ layui.define(['layer', 'form', 'laytpl'], function (exports) {
             let currentCode = '';
             let currentName = '';
             provinceList.forEach(function(_item){
-                // if (!currentCode){
-                //   currentCode = _item.code;
-                //   currentName = _item.name;
-                // }
                 if(_item.name === options.data.province){
                     currentCode = _item.code;
                     currentName = _item.name;
@@ -3937,10 +3932,6 @@ layui.define(['layer', 'form', 'laytpl'], function (exports) {
             let currentCode = '';
             let currentName = '';
             cityList.forEach(function(_item){
-                // if (!currentCode){
-                //   currentCode = _item.code;
-                //   currentName = _item.name;
-                // }
                 if(_item.name === options.data.city){
                     currentCode = _item.code;
                     currentName = _item.name;
@@ -3960,10 +3951,6 @@ layui.define(['layer', 'form', 'laytpl'], function (exports) {
             let currentCode = '';
             let currentName = '';
             countyList.forEach(function(_item){
-                // if (!currentCode){
-                //   currentCode = _item.code;
-                //   currentName = _item.name;
-                // }
                 if(_item.name === options.data.county){
                     currentCode = _item.code;
                     currentName = _item.name;
@@ -3993,7 +3980,6 @@ layui.define(['layer', 'form', 'laytpl'], function (exports) {
             });
 
             if (code) {
-                // oversea code
                 if (code[0] === '9' && type === 'city') {
                     code = '9';
                 }

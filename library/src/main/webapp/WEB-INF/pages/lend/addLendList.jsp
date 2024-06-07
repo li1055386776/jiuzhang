@@ -48,7 +48,6 @@
 <script src="${pageContext.request.contextPath}/lib/layui-v2.5.5/layui.js" charset="utf-8"></script>
 <script>
     layui.use(['form', 'table'], function(){
-        // var table = layui.table;
         var $ = layui.jquery,
             form = layui.form,
             table = layui.table;

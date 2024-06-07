@@ -19,7 +19,16 @@
 
     <style>
         html, body {width: 100%;height: 100%;overflow: hidden}
-        body {background: url("${pageContext.request.contextPath}/images/loginbg.png") no-repeat center;}
+        body {
+            background: url("${pageContext.request.contextPath}/images/TuPian.jpg") no-repeat center center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
         body:after {content:'';background-repeat:no-repeat;background-size:cover;-webkit-filter:blur(3px);-moz-filter:blur(3px);-o-filter:blur(3px);-ms-filter:blur(3px);filter:blur(3px);position:absolute;top:0;left:0;right:0;bottom:0;z-index:-1;}
         .layui-container {width: 100%;height: 100%;overflow: hidden}
         .admin-login-background {width:450px;height:300px;position:absolute;left:65%;top:45%;margin-top:-120px;margin-left:-50px;opacity:0.9;}
